@@ -11,8 +11,4 @@ defmodule CardsTest do
     deck = Cards.create_deck()
     assert deck != Cards.shuffle(deck)
   end
-
-  test "hello"  do
-    assert "world" == Cards.hello()
-  end
 end
